@@ -1,0 +1,57 @@
+2018-11-17 23:58:44.269  INFO 12180 --- [main] c.q.admin_server.AdminServerApplication  : No active profile set, falling back to default profiles: default
+2018-11-17 23:58:44.305  INFO 12180 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@398474a2: startup date [Sat Nov 17 23:58:44 GMT+08:00 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@749c877b
+2018-11-17 23:58:46.126  INFO 12180 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=52905491-7949-379e-84d2-8e3c97f3f928
+2018-11-17 23:58:46.150  INFO 12180 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-11-17 23:58:46.369  INFO 12180 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8a6e7b9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-11-17 23:58:47.444  INFO 12180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 5000 (http)
+2018-11-17 23:58:47.491  INFO 12180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-11-17 23:58:47.491  INFO 12180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.34
+2018-11-17 23:58:47.520  INFO 12180 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Program Files (x86)\jdk\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;D:\Program Files (x86)\jdk\bin;D:\maven\apache-maven-3.5.0\bin;C:\Program Files\Git\cmd;D:\Redis-x64-3.2.100;C:\Users\Qiao-PC\AppData\Local\Microsoft\WindowsApps;;.]
+2018-11-17 23:58:47.806  INFO 12180 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-11-17 23:58:47.807  INFO 12180 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3502 ms
+2018-11-17 23:58:48.143  WARN 12180 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-17 23:58:48.144  INFO 12180 --- [localhost-startStop-1] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-17 23:58:48.172  INFO 12180 --- [localhost-startStop-1] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@504803b4
+2018-11-17 23:58:50.351  INFO 12180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-11-17 23:58:50.352  INFO 12180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-11-17 23:58:50.352  INFO 12180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-11-17 23:58:50.353  INFO 12180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-11-17 23:58:50.353  INFO 12180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-11-17 23:58:50.353  INFO 12180 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-11-17 23:58:50.354  INFO 12180 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-11-17 23:58:50.358  INFO 12180 --- [localhost-startStop-1] o.s.b.a.e.web.ServletEndpointRegistrar   : Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2018-11-17 23:58:50.488  WARN 12180 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-11-17 23:58:50.488  INFO 12180 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-11-17 23:58:50.850  INFO 12180 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-17 23:58:51.261  INFO 12180 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@398474a2: startup date [Sat Nov 17 23:58:44 GMT+08:00 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@749c877b
+2018-11-17 23:58:51.409  INFO 12180 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-11-17 23:58:51.411  INFO 12180 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-11-17 23:58:51.461  INFO 12180 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-17 23:58:51.461  INFO 12180 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-11-17 23:58:51.831  WARN 12180 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'instancesProxyController' defined in class path resource [de/codecentric/boot/admin/server/config/AdminServerWebConfiguration$ServletRestApiConfirguation.class]: Unsatisfied dependency expressed through method 'instancesProxyController' parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'instanceRegistry' defined in class path resource [de/codecentric/boot/admin/server/config/AdminServerAutoConfiguration.class]: Unsatisfied dependency expressed through method 'instanceRegistry' parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'instanceRepository' defined in class path resource [de/codecentric/boot/admin/server/config/AdminServerAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [de.codecentric.boot.admin.server.domain.entities.SnapshottingInstanceRepository]: Factory method 'instanceRepository' threw exception; nested exception is java.lang.NoSuchMethodError: reactor.retry.Retry.retryMax(J)Lreactor/retry/Retry;
+2018-11-17 23:58:51.844  WARN 12180 --- [main] o.s.b.f.support.DisposableBeanAdapter    : Destroy method 'close' on bean with name 'eurekaRegistration' threw an exception: org.springframework.beans.factory.BeanCreationNotAllowedException: Error creating bean with name 'org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration': Singleton bean creation not allowed while singletons of this factory are in destruction (Do not request a bean from a BeanFactory in a destroy method implementation!)
+2018-11-17 23:58:51.848  INFO 12180 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2018-11-17 23:58:51.883  INFO 12180 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-11-17 23:58:51.888 ERROR 12180 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+An attempt was made to call the method reactor.retry.Retry.retryMax(J)Lreactor/retry/Retry; but it does not exist. Its class, reactor.retry.Retry, is available from the following locations:
+
+    jar:file:/D:/maven/repository/io/projectreactor/addons/reactor-extra/3.1.7.RELEASE/reactor-extra-3.1.7.RELEASE.jar!/reactor/retry/Retry.class
+
+It was loaded from the following location:
+
+    file:/D:/maven/repository/io/projectreactor/addons/reactor-extra/3.1.7.RELEASE/reactor-extra-3.1.7.RELEASE.jar
+
+
+Action:
+
+Correct the classpath of your application so that it contains a single, compatible version of reactor.retry.Retry
+
