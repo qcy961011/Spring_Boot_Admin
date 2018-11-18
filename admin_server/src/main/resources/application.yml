@@ -11,3 +11,7 @@ management:
     web:
       exposure:
         include: "*"
+
+spring:
+  application:
+    name: admin_server

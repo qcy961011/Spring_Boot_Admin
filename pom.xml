@@ -12,6 +12,7 @@
         <module>eureka_server</module>
         <module>admin_server</module>
         <module>admin_client</module>
+        <module>eureka_client_one</module>
     </modules>
 
     <parent>

@@ -9,6 +9,7 @@
         <module name="admin_client" />
         <module name="admin_server" />
         <module name="demo" />
+        <module name="eureka_client_one" />
         <module name="eureka_server" />
         <module name="Spring_Boot_Admin" />
       </profile>
